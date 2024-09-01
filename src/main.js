@@ -28,7 +28,7 @@ onKeyDown("right", () => {
 });
 
 onKeyPress("space", () => {
-  if (player.isGrounded) {
+  if (player.isGrounded()) {
     player.jump();
   }
 });
